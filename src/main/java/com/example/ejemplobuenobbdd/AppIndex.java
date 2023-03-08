@@ -31,7 +31,7 @@ public class AppIndex extends Application {
     public static void main(String[] args) {
 
         String url = """
-                jdbc:mysql://localhost:3306/?allowPublicKeyRetrieval=true&useSSL=false
+                jdbc:mysql://localhost:3306/database/?allowPublicKeyRetrieval=true&useSSL=false
                 """;
         conexion = null;
 
