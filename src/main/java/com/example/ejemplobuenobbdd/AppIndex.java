@@ -31,13 +31,21 @@ public class AppIndex extends Application {
     public static void main(String[] args) {
 
         String url = """
-                jdbc:mysql://localhost:3306/database/?allowPublicKeyRetrieval=true&useSSL=false
+                jdbc:mysql://localhost:3306/database?allowPublicKeyRetrieval=true&useSSL=false
                 """;
         conexion = null;
 
         try {
             conexion = DriverManager.getConnection(url,"root","root");
             System.out.println("Conectado a la base de datos :D");
+            conexion.close();
+            if (conexion!=null){
+                System.out.println("Conexion 1: " +conexion);
+                if (conexion.isClosed()){
+                    conexion = DriverManager.getConnection(url,"root","root");
+                    System.out.println("Conexion 2: "+conexion );
+                }
+            }
         } catch (SQLException e){
             System.out.println("SQL Exception: "+e.getMessage());
             System.out.println("SQL Exception: "+e.getSQLState());

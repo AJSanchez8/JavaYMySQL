@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/usuario/AJDAW/programacion/proyectos intelliJ/ejemploBBDD"
+    "last_opened_file_path": "/home/usuario/AJDAW/programacion/proyectos intelliJ/ejemploBuenoBBDD"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,11 +56,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678266779761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Conectado a la bases de datos puerto :8081">
+      <created>1678268503592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678268503592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nuevo proyecto enlazar con bbdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nuevo proyecto enlazar con bbdd" />
+    <MESSAGE value="Conectado a la bases de datos puerto :8081" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conectado a la bases de datos puerto :8081" />
   </component>
 </project>
