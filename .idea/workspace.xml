@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Conexion.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/CierraConexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/GestionPropertiesConexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/MiConexion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" afterDir="false" />
     </list>
@@ -12,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,12 +74,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678268503592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Comprobamos bases de datos y conexiones">
+      <created>1678699746598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678699746598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nuevo proyecto enlazar con bbdd" />
     <MESSAGE value="Conectado a la bases de datos puerto :8081" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conectado a la bases de datos puerto :8081" />
+    <MESSAGE value="Comprobamos bases de datos y conexiones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comprobamos bases de datos y conexiones" />
   </component>
 </project>

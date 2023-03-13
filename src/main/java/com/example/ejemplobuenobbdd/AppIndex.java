@@ -28,29 +28,16 @@ public class AppIndex extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException, IOException {
+        conexion = MiConexion.abrirConexion();
+        if (conexion!=null && conexion.isClosed()){
+            System.out.println("Conextando a bases de datos");
 
-        String url = """
-                jdbc:mysql://localhost:3306/database?allowPublicKeyRetrieval=true&useSSL=false
-                """;
-        conexion = null;
-
-        try {
-            conexion = DriverManager.getConnection(url,"root","root");
-            System.out.println("Conectado a la base de datos :D");
-            conexion.close();
-            if (conexion!=null){
-                System.out.println("Conexion 1: " +conexion);
-                if (conexion.isClosed()){
-                    conexion = DriverManager.getConnection(url,"root","root");
-                    System.out.println("Conexion 2: "+conexion );
-                }
-            }
-        } catch (SQLException e){
-            System.out.println("SQL Exception: "+e.getMessage());
-            System.out.println("SQL Exception: "+e.getSQLState());
-            System.out.println("SQL Exception: "+e.getErrorCode());
         }
+        System.out.println("Conexion: "+conexion);
+
         launch();
     }
+    // BLoque estatico
+    static {Runtime.getRuntime().addShutdownHook(new CierraConexion());}
 }
